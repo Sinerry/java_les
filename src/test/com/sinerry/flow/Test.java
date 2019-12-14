@@ -1,6 +1,7 @@
-package com.sinerry;
+package com.sinerry.flow;
 
 @org.testng.annotations.Test
+
 public class Test {
     public void test1() {
         int n1 = 1;
@@ -39,7 +40,7 @@ public class Test {
 
         int a = 0;
         for(int i = 0; i < 100; i++) {
-            a = ++a;
+            a = a++;
         }
         System.out.println(a);
     }
