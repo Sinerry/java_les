@@ -4,6 +4,10 @@ import com.sinerry.util.StringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+/*
+* TDD，编写测试用例
+* */
 public class StringUtilsTest {
 
     @Test

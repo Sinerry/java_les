@@ -3,7 +3,7 @@ package com.sinerry.util;
 public class StringUtils {
 
     /*
-    * 去除字符串中对所有空格
+    * 去除字符串中的所有空格
     * @param s
     * @return string
     * */
