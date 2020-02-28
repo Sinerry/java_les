@@ -25,24 +25,24 @@ public class JavaTreeMap {
     *
     * */
     public static void main(String[] args) {
-        /*Map<Integer,User> map = new TreeMap();
-        map.put(5,new User("lucy",21));
-        map.put(3,new User("rose",20));
-        map.put(4,new User("jack",22));
-        map.put(8,new User("mary",19));
+        /*Map<Integer,Book> map = new TreeMap();
+        map.put(5,new Book("lucy",21));
+        map.put(3,new Book("rose",20));
+        map.put(4,new Book("jack",22));
+        map.put(8,new Book("mary",19));
 
         System.out.println(map.keySet());// 键集
         System.out.println(map.values());// 值集合
         System.out.println(map.entrySet());// 键值对集
         */
 
-        /*TreeMap<Id,User> map = new TreeMap<>();
+        /*TreeMap<Id,Book> map = new TreeMap<>();
         // 增加
-        map.put(new Id(2),new User("lucy",21));
-        map.put(new Id(5),new User("jack",20));
-        map.put(new Id(4),new User("rose",22));
-        map.put(new Id(8),new User("jennifer",19));
-        map.put(new Id(3),new User("peter",23));
+        map.put(new Id(2),new Book("lucy",21));
+        map.put(new Id(5),new Book("jack",20));
+        map.put(new Id(4),new Book("rose",22));
+        map.put(new Id(8),new Book("jennifer",19));
+        map.put(new Id(3),new Book("peter",23));
 
         // 删除
         map.remove(new Id(3));    调用比较器的compare方法或者可比较对象compareTo方法
@@ -114,7 +114,7 @@ public class JavaTreeMap {
 
         @Override
         public String toString() {
-            return "User{" +
+            return "Book{" +
                     "name='" + name + '\'' +
                     ", age=" + age +
                     '}';

@@ -1,36 +1,34 @@
-package com.sinerry.javaio;
+package com.sinerry.io;
 
 
 import java.io.*;
 
 // 字符流
-public class OutputCharacterStream {
+public class InputCharacterStream {
     public static void main(String[] args) {
-        final String srcPath = "./src/main/java/com/sinerry/javaio/1.txt";
-        final String destPath = "./src/main/java/com/sinerry/javaio/2.txt";
+        final String path = "./src/main/java/com/sinerry/io/1.txt";
         InputStream inputStream = null;
         Reader reader = null;
-        Writer writer = null;
         try {
-            inputStream = new FileInputStream(srcPath);
+            // 输入字节流
+            inputStream = new FileInputStream(path);
+            // 输入字符流
             reader = new InputStreamReader(inputStream);
-            writer = new FileWriter(destPath);
             int temp;
             StringBuilder s = new StringBuilder();
             while ((temp = reader.read()) != -1) {
                 s.append((char)temp);
             }
-            System.out.println(s);
-            writer.write(s.toString());
-        } catch (IOException e) {
+            System.out.println(s.toString());
+
+        }catch (FileNotFoundException e) {
             e.printStackTrace();
-        } finally {
+        }catch (IOException e) {
+            e.printStackTrace();
+        }finally {
             try {
                 if(inputStream != null) {
                     inputStream.close();
-                }
-                if(writer != null) {
-                    writer.close();
                 }
                 if(reader != null) {
                     reader.close();

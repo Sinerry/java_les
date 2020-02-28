@@ -28,7 +28,7 @@ public class UserService {
     // 静态代理逻辑
     /*public static void staticProxy() {
         // 1.模拟用户
-        User user = new User("jack",18);
+        Book user = new Book("jack",18);
         // 2.创建被代理对象
         UserRepository userRepository = new UserRepositoryImpl();
         // 3.创建代理对象
@@ -42,7 +42,7 @@ public class UserService {
     /*public static Object jdkProxy() {
 
         // 1. 模拟用户
-        User user = new User("rose",21);
+        Book user = new Book("rose",21);
 
         // 2. 创建代理对象
         UserRepository userRepository = new UserRepositoryImpl();

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<types unit="cm">
+    <type size="s" max="165"/>
+    <type size="s" min="165" max="170"/>
+    <type size="x" min="170" max="175"/>
+    <type size="xl" min="175" max="180"/>
+</types>

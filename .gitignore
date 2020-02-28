@@ -8,3 +8,6 @@ target
 .DS_Store
 **/*.pdf
 **/*.txt
+**/*.xml
+**/*.ppt
+**/*.doc

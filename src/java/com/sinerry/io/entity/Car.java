@@ -1,4 +1,4 @@
-package com.sinerry.javaio;
+package com.sinerry.io.entity;
 
 import java.io.Serializable;
 
