@@ -10,4 +10,8 @@ target
 **/*.txt
 **/*.xml
 **/*.ppt
+**/*.ppt
+**/*.pptx
 **/*.doc
+**/*.docx
+**/*.md

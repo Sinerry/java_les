@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
+
         System.out.println("欢迎来到文件管理系统!!!");
         Scanner scanner = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
